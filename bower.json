@@ -1,0 +1,32 @@
+{
+  "name": "tisch",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular-loading": "~0.1.4",
+    "angular-sanitize": "~1.4.7",
+    "angular-bootstrap": "~0.14.3",
+    "angular-jquery-timepicker": "~0.8.0",
+    "angular-translate": "~2.8.1",
+    "angular-translate-loader-partial": "~2.8.1",
+    "angular-translate-interpolation-messageformat": "~2.8.1"
+  },
+  "ignoredDependencies": [
+    "angular",
+    "jquery",
+    "bootstrap",
+    "semantic",
+    "semantic-ui"
+  ],
+  "overrides": {
+    "angular": {
+      "main": []
+    },
+    "jquery": {
+      "main": []
+    }
+  },
+  "private": true,
+  "resolutions": {
+    "angular": "1.4.8"
+  }
+}

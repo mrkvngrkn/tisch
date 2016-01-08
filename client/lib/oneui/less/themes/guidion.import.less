@@ -1,0 +1,17 @@
+//
+// Color Theme - Guidion
+// --------------------------------------------------
+
+// Variables and Mixins
+//@import "../variables.less";
+//@import "../mixins.less";
+
+@brand-primary:             #e6463a;//@theme-guidion-base;
+@theme-guidion-primary-btn: lighten(@theme-guidion-dark, 15%);
+@brand-success:             #7ac74f;
+@brand-info:                #3bbac5;
+@brand-warning:             #f9de45;
+@brand-danger:              desaturate(darken(#e6463a, 5%), 10%);
+
+// Generate color theme
+.color-theme(@theme-guidion-base; @theme-guidion-light; @theme-guidion-lighter; @theme-guidion-dark; @theme-guidion-darker; @theme-guidion-body; @theme-guidion-primary-btn);
